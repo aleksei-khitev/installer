@@ -21,7 +21,7 @@ package ru.akhitev.installer.nix
 
 import ru.akhitev.net.ssh.ISshClient
 
-import java.awt.TextArea
+import javafx.scene.control.TextArea;
 
 class NixFromCommandFileInstallerImpl implements INixInstaller{
     ISshClient sshClient

@@ -19,7 +19,7 @@
 
 package ru.akhitev.installer.nix
 
-import java.awt.TextArea
+import javafx.scene.control.TextArea
 import ru.akhitev.net.ssh.ISshClient
 
 interface INixInstaller{
